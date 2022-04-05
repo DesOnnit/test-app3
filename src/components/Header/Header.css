@@ -1,15 +1,14 @@
-.header {
-    position: relative;
-    z-index: 1;
-}
-
 .header:before {
-    content: url(../../utils/img/Pixel.svg);
-    position: fixed;
+    content: '';
+    display: block;
+    background:url(../../utils/img/Pixel.svg) no-repeat;
+    position: absolute;
     z-index: -2;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
 }
 
 .header__info {
@@ -23,12 +22,11 @@
 .header__container {
     margin: 240px auto 0;
     padding-bottom: 256px;
-    width: 1275px;
+    max-width: 1275px;
     height: 443px;
 }
 
 .header__info__title {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
     font-size: 60px;
@@ -38,7 +36,6 @@
 }
 
 .header__info__subtitle {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -48,7 +45,7 @@
     margin: 0;
 }
 
-.header__liknks {
+.header__links {
     display: flex;
     justify-content: space-between;
 }
@@ -67,8 +64,7 @@
     color: white;
 }
 
-.header__liknks__about {
-    font-family: 'Montserrat';
+.header__links__about {
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -76,6 +72,11 @@
     text-align: justify;
     color: #FFFFFF;
     text-decoration: none;
-    background: url(../../utils/img/Vector.svg) no-repeat right;
-    width: 140px;
+}
+.header__links__about_arrow{
+    display:inline-block;
+    background: url(../../utils/img/Vector.svg) no-repeat center;
+    width: 16.5px;
+    height: 16.5px;
+    margin-left: 12.75px;
 }

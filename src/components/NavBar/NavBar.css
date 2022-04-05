@@ -12,6 +12,9 @@
     display: flex;
     justify-content: space-between;
 }
+.navbar__container_hiden{
+    display:none;
+}
 
 .navbar__logo {
     width: 203px;
@@ -19,7 +22,6 @@
 }
 
 .navbar__link {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -27,8 +29,15 @@
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 32px;
-}
 
+}
+.navbar__link_dot{
+    display:inline-block;
+    background:url(../../utils/img/Ellipse\ 1.svg) no-repeat center;
+    width: 5px;
+    height: 5px;
+    margin-left: 2px;
+}
 .navbar__link:last-child {
     margin: 0;
 }
@@ -37,7 +46,6 @@
     width: 244px;
     height: 48px;
     background: linear-gradient(266.15deg, #B19A45 39.63%, rgba(177, 154, 69, 0) 131.87%);
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -49,4 +57,16 @@
     right: 0;
     text-align: center;
     border: none;
+}
+.navbar__burger{
+    border: none;
+    background: url(../../utils/img/HeaderBurger.svg) no-repeat;
+    width:60px;
+    height:22px;
+}
+.navbar__burger_hiden{
+    display:none;
+}
+@media screen and (min-width: 834px) and (max-width:1750px) {
+    
 }
