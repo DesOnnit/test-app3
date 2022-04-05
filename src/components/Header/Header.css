@@ -1,0 +1,81 @@
+.header {
+    position: relative;
+    z-index: 1;
+}
+
+.header:before {
+    content: url(../../utils/img/Pixel.svg);
+    position: fixed;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.header__info {
+    display: flex;
+    flex-direction: column;
+    margin: 240px 0 100px;
+    width: 785px;
+    height: 319px;
+}
+
+.header__container {
+    margin: 240px auto 0;
+    padding-bottom: 256px;
+    width: 1275px;
+    height: 443px;
+}
+
+.header__info__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 73px;
+    color: #FFFFFF;
+    margin: 0 0 25px 0;
+}
+
+.header__info__subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.header__liknks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__counter {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 148px;
+    align-items: center;
+}
+
+.header__counter__button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.header__liknks__about {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: url(../../utils/img/Vector.svg) no-repeat right;
+    width: 140px;
+}
