@@ -24,10 +24,13 @@
 
 .services__arrow {
     display: inline-block;
-    background: url(../../utils/img/Vector.svg) no-repeat bottom;
+    background: url(../../utils/img/Vector_title.svg) no-repeat bottom;
     width: 31px;
     height: 31px;
     margin-left: 12.75px;
+}
+.services__arrow_mini{
+    background: url(../../utils/img/Vector.svg) no-repeat bottom;
 }
 
 .services__link {
