@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import NavBar from '../NavBar/NavBar';
 import Header from '../Header/Header';
+import Services from '../Services/Services'
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <NavBar
       hiden={isVisitable}/>
       <Header/>
+      <Services/>  
     </div>
   );
 }
