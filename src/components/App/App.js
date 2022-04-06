@@ -3,7 +3,8 @@ import NavBar from '../NavBar/NavBar';
 import Header from '../Header/Header';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
-import TechnologyMap from '../TechnologyMap/TechnologyMap'
+import TechnologyMap from '../TechnologyMap/TechnologyMap';
+import Contacts from '../Contacts/Contacts'
 import './App.css';
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       <Header/>
       <Services/> 
       <Team/>
-      <TechnologyMap/>   
+      <TechnologyMap/> 
+      <Contacts/>  
     </div>
   );
 }

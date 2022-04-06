@@ -51,3 +51,10 @@ export const technology_map = [
     { title: 'BACKEND', subtitle: 'PHP (ZEND 1-2-3, YII 1-2, Symfony), C# .NET (.NET Core), Go, Python (Django), Java, Node.js' },
     { title: 'DB', subtitle: 'PostgreSQL, Oracle, MySQL, MS SQL, Firebird, NoSQL: MongoDB, Redis, Hadoop' },
 ]
+export const contacts = [
+    { title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
+    { title: 'КАЗАНЬ', telephone: '1', email: '2', adress: '3' },
+    { title: 'ТЮМЕНЬ', telephone: '1', email: '2', adress: '3' },
+    { title: 'ЕКАТЕРИНБУРГ', telephone: '1', email: '2', adress: '3' },
+    { title: 'ДУБАЙ', telephone: '1', email: '2', adress: '3' },
+]
