@@ -1,0 +1,53 @@
+.technology-map {
+    padding-top: 68px;
+    margin-bottom: 128px;
+}
+
+.technology-map__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.technology-map__title_arrow {
+    display: inline-block;
+    background: url(../../utils/img/Vector_title.svg) no-repeat bottom;
+    width: 31px;
+    height: 31px;
+    margin-left: 12.75px;
+}
+
+.technology-map__container {
+    display: flex;
+    max-width: 1216px;
+}
+
+.technology-map__info {
+    border-left: 1px solid #B19A45;
+    color: white;
+    width: 382px;
+    height: 140px;
+    box-sizing: border-box;
+    margin-right: 35px;
+}
+
+.technology-map__info__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: justify;
+    margin: 15px 0 13px 20px;
+}
+
+.technology-map__info__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    margin: 0 0 0 20px;
+}
