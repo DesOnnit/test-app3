@@ -3,6 +3,7 @@ import NavBar from '../NavBar/NavBar';
 import Header from '../Header/Header';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
+import TechnologyMap from '../TechnologyMap/TechnologyMap'
 import './App.css';
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       hiden={isVisitable}/>
       <Header/>
       <Services/> 
-      <Team/> 
+      <Team/>
+      <TechnologyMap/>   
     </div>
   );
 }

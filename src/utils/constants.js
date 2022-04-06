@@ -46,3 +46,8 @@ export const team_slaider = [
     { title: 'СОСТАВ КОМАНДЫ', subtitle: 'АНАЛИТИК', paragraph: 'Аналитик работает с бизнес-требованиями и готовит техническую документацию для разработчиков.', src: Team_Slaider3 },
     { title: 'СОСТАВ КОМАНДЫ', subtitle: 'DEVOPS-ИНЖЕНЕР', paragraph: 'Сочетает в себе навыки и умения системного администратора и программиста.', src: Team_Slaider4 },
 ]
+export const technology_map = [
+    { title: 'FRONTEND', subtitle: 'Angular, React, Backbone, Dojo, HTML5, Bootstrap, JQuery, JavaFx' },
+    { title: 'BACKEND', subtitle: 'PHP (ZEND 1-2-3, YII 1-2, Symfony), C# .NET (.NET Core), Go, Python (Django), Java, Node.js' },
+    { title: 'DB', subtitle: 'PostgreSQL, Oracle, MySQL, MS SQL, Firebird, NoSQL: MongoDB, Redis, Hadoop' },
+]
