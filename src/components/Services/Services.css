@@ -1,0 +1,44 @@
+.services {
+    margin-bottom: 74px;
+    padding-top: 66px;
+    position: relative;
+}
+
+.services__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.services__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin: 0 0 38px 0;
+}
+
+.services__arrow {
+    display: inline-block;
+    background: url(../../utils/img/Vector.svg) no-repeat bottom;
+    width: 31px;
+    height: 31px;
+    margin-left: 12.75px;
+}
+
+.services__link {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+    text-decoration: none;
+}
