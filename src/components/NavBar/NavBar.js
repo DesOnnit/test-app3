@@ -1,6 +1,7 @@
 import Logo from '../../utils/img/logo.svg'
 import { navLinks } from '../../utils/constants'
 import NavBarMenu from '../NavBarMenu/NavBarMenu'
+import NavBarPopup from '../NavBarPopup/NavBarPopup'
 import './NavBar.css'
 export default function NavBar(props) {
     return (
@@ -12,7 +13,11 @@ export default function NavBar(props) {
                     link={link}/>
                 ))}
             </div>
-            <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'}/>
+            <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'} onClick={props.open}/>
+            <button className='navbar__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button>
+            <NavBarPopup
+            navLinks={navLinks}
+            isOpen={props.isOpen}/>
         </div>
     )
 }

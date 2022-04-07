@@ -7,6 +7,9 @@
     text-decoration: none;
     margin-right: 32px;
 }
+.open{
+    margin: 0;
+}
 
 .navbar-menu__link_dot {
     display: inline-block;
