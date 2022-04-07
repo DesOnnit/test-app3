@@ -1,0 +1,28 @@
+.industries {
+    padding-top: 66px;
+}
+
+.industries__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.industries__title_arrow {
+    display: inline-block;
+    background: url(../../utils/img/Vector_title.svg) no-repeat bottom;
+    width: 31px;
+    height: 31px;
+    margin-left: 12.75px;
+}
+
+.industries_container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(409px, 1fr));
+    margin: 66px auto 85px;
+    max-width: 1270px;
+}

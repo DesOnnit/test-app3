@@ -8,6 +8,15 @@ import Team_Slaider1 from './img/Team_Slaider1.svg';
 import Team_Slaider2 from './img/Team_Slaider2.svg';
 import Team_Slaider3 from './img/Team_Slaider3.svg';
 import Team_Slaider4 from './img/Team_Slaider4.svg';
+import Industry1 from './img/Industry1.svg';
+import Industry2 from './img/Industry2.svg';
+import Industry3 from './img/Industry3.svg';
+import Industry4 from './img/Industry4.svg';
+import Industry5 from './img/Industry5.svg';
+import Industry6 from './img/Industry6.svg';
+import Industry7 from './img/Industry7.svg';
+import Industry8 from './img/Industry8.svg';
+import Industry9 from './img/Industry9.svg';
 export const navLinks = [
     { title: 'Главная', src: '*' },
     { title: 'Услуги', src: '*' },
@@ -57,4 +66,15 @@ export const contacts = [
     { title: 'ТЮМЕНЬ', telephone: '1', email: '2', adress: '3' },
     { title: 'ЕКАТЕРИНБУРГ', telephone: '1', email: '2', adress: '3' },
     { title: 'ДУБАЙ', telephone: '1', email: '2', adress: '3' },
+]
+export const industry = [
+    { title: 'Промышленость', src:Industry1},
+    { title: 'Гос.сектор', src:Industry2},
+    { title: 'IT / Телеком', src:Industry3},
+    { title: 'Автомобилестроение', src:Industry4},
+    { title: 'Логистика', src:Industry5},
+    { title: 'Медицина', src:Industry6},
+    { title: 'Образование', src:Industry7},
+    { title: 'Стартап', src:Industry8},
+    { title: 'Retail', src:Industry9},
 ]

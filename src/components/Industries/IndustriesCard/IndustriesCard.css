@@ -1,0 +1,22 @@
+.industry-card {
+    margin: 0;
+    position: relative;
+}
+
+.industry-card__img {
+    width: 410px;
+    height: 260px;
+}
+
+.industry-card__title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+}
