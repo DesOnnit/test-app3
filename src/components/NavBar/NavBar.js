@@ -14,7 +14,6 @@ export default function NavBar(props) {
                 ))}
             </div>
             <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'} onClick={props.open}/>
-            <button className='navbar__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button>
             <NavBarPopup
             navLinks={navLinks}
             isOpen={props.isOpen}/>
