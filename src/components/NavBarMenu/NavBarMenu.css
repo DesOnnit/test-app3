@@ -1,0 +1,20 @@
+.navbar-menu__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.navbar-menu__link_dot {
+    display: inline-block;
+    background: url(../../utils/img/Ellipse\ 1.svg) no-repeat center;
+    width: 5px;
+    height: 5px;
+    margin-left: 2px;
+}
+.navbar-menu__link:last-child {
+    margin: 0;
+}

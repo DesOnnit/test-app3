@@ -6,7 +6,8 @@ export default function Header() {
     let counterLogic = () => counter === slaider.length+1 ? setCounter(1) : setCounter(counter) || counter === 0 ? setCounter(slaider.length) : setCounter(counter)
     
     useEffect(() => {
-        counterLogic()
+        counterLogic();
+        setTimeout(()=>setCounter(counter + 1),2000)
     }, [counter])
 
     return (
