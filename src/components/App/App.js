@@ -4,7 +4,8 @@ import Header from '../Header/Header';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
 import TechnologyMap from '../TechnologyMap/TechnologyMap';
-import Contacts from '../Contacts/Contacts'
+import Contacts from '../Contacts/Contacts';
+import Industries from '../Industries/Industries';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       hiden={isVisitable}/>
       <Header/>
       <Services/> 
+      <Industries/>
       <Team/>
       <TechnologyMap/> 
       <Contacts/>  
