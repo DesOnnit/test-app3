@@ -14,13 +14,14 @@ function App() {
     setIsOpen(true);
   }
 
-  const [isVisitable, setIsVisitable] = useState(true);
+  const [isVisitable,setIsVisitable] = useState(true);
+  
   useEffect(() => {
     window.addEventListener(`resize`, () => {
       let size = window.innerWidth
-      size <= 1750 ? setIsVisitable(false) : setIsVisitable(true);
-    })
-  }, [])
+      size <=1750? setIsVisitable(false):setIsVisitable(true);
+    })},[])
+  
   return (
     <div className="App">
       <NavBar

@@ -1,7 +1,7 @@
 .header:before {
     content: '';
     display: block;
-    background:url(../../utils/img/Pixel.svg) no-repeat;
+    background: url(../../utils/img/Pixel.svg) no-repeat;
     position: absolute;
     z-index: -2;
     top: 0;
@@ -24,6 +24,7 @@
     padding-bottom: 256px;
     max-width: 1275px;
     height: 443px;
+    position: relative;
 }
 
 .header__info__title {
@@ -47,7 +48,12 @@
 
 .header__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    height: 696px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .header__counter {
@@ -72,11 +78,98 @@
     text-align: justify;
     color: #FFFFFF;
     text-decoration: none;
+    align-self: end;
 }
-.header__links__about_arrow{
-    display:inline-block;
+
+.header__links__about_arrow {
+    display: inline-block;
     background: url(../../utils/img/Vector.svg) no-repeat center;
     width: 16.5px;
     height: 16.5px;
     margin-left: 12.75px;
+}
+
+.header__for-links {
+    position: relative;
+}
+
+.header__links__button {
+    width: 244px;
+    height: 48px;
+    background: linear-gradient(266.15deg, #B19A45 39.63%, rgba(177, 154, 69, 0) 131.87%);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    .header__info {
+        display: flex;
+        flex-direction: column;
+        margin: 172px auto 20px;
+        width: 300px;
+        height: 359px;
+    }
+
+    .header__info__title {
+        font-size: 45px;
+        line-height: 55px;
+        margin: 0 0 30px 0;
+    }
+
+    .header__info__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 31px;
+        position: relative;
+        top: 130px;
+        align-items: center;
+    }
+
+    .header__links__button {
+        background: black;
+        border: 2px solid #B19A45;
+        color: #B19A45;
+        font-size: 9px;
+        line-height: 11px;
+        width: 150px;
+        height: 31px;
+    }
+
+    .header__links__about {
+        font-size: 15px;
+        line-height: 18px;
+        align-self: center;
+    }
+
+    .header__links__about_arrow {
+        width: 9px;
+        height: 9px;
+    }
+    .header__container {
+        margin: 172px auto 0;
+        padding-bottom: 87px;
+        max-width: 1275px;
+        min-width: 300px;
+        height: 553px;
+    }
+    .header__links__about_arrow {
+        background: url(../../utils/img/VectorMobile.svg) no-repeat center;
+    }
+    .header:before {
+        background: url(../../utils/img/BeforeMobile.svg) no-repeat;
+    }
+    
 }
