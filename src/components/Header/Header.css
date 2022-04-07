@@ -1,7 +1,8 @@
+
 .header:before {
     content: '';
     display: block;
-    background:url(../../utils/img/Pixel.svg) no-repeat;
+    background: url(../../utils/img/Pixel.svg) no-repeat;
     position: absolute;
     z-index: -2;
     top: 0;
@@ -47,7 +48,12 @@
 
 .header__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    height:700px;
+    position: absolute;
+    right: 0;
+    top:0;
 }
 
 .header__counter {
@@ -73,10 +79,36 @@
     color: #FFFFFF;
     text-decoration: none;
 }
-.header__links__about_arrow{
-    display:inline-block;
+
+.header__links__about_arrow {
+    display: inline-block;
     background: url(../../utils/img/Vector.svg) no-repeat center;
     width: 16.5px;
     height: 16.5px;
     margin-left: 12.75px;
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    .header__container {
+        margin: 172px auto 0;
+        padding-bottom: 0;
+        width: 300px;
+        height: 553px;
+    }
+
+    .header__info__title {
+        font-size: 45px;
+        line-height: 55px;
+        margin: 0 0 30px 0;
+    }
+
+    .header__info__subtitle {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__info {
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
 }

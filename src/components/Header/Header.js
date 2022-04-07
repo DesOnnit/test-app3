@@ -7,7 +7,7 @@ export default function Header() {
     
     useEffect(() => {
         counterLogic();
-        setTimeout(()=>setCounter(counter + 1),2000)
+        /* setTimeout(()=>setCounter(counter + 1),2000) */
     }, [counter])
 
     return (
@@ -19,12 +19,18 @@ export default function Header() {
                         <p className='header__info__subtitle'>{card.subtitle}</p>
                     </div>
                 ))}
-                <div className='header__links'>
-                    <div className='header__counter'>
+                 <div className='header__counter'>
                         <button className='header__counter__button' onClick={() => setCounter(counter - 1)}>&#8592;</button>
                         <span>0{counter}/0{slaider.length}</span>
                         <button className='header__counter__button' onClick={() => setCounter(counter + 1)}>&#8594;</button>
                     </div>
+                <div className='header__links'>
+                   {/*  <div className='header__counter'>
+                        <button className='header__counter__button' onClick={() => setCounter(counter - 1)}>&#8592;</button>
+                        <span>0{counter}/0{slaider.length}</span>
+                        <button className='header__counter__button' onClick={() => setCounter(counter + 1)}>&#8594;</button>
+                    </div> */}
+                    <button className='navbar__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button>
                     <a href="*" className='header__links__about'>Подробнее<span className='header__links__about_arrow'/></a>
                 </div>
             </div>

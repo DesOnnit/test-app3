@@ -13,7 +13,7 @@ export default function NavBar(props) {
                 ))}
             </div>
             <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'}/>
-            <button className='navbar__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button>
+            {/* <button className='navbar__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button> */}
         </div>
     )
 }
