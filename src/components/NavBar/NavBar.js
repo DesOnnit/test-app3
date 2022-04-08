@@ -1,4 +1,4 @@
-import Logo from '../../utils/img/logo.svg'
+import Logo from '../../utils/img/DT_gold 1.svg'
 import { navLinks } from '../../utils/constants'
 import NavBarMenu from '../NavBarMenu/NavBarMenu'
 import NavBarPopup from '../NavBarPopup/NavBarPopup'
@@ -7,16 +7,19 @@ export default function NavBar(props) {
     return (
         <div className="navbar">
             <img src={Logo} alt='Логотип' className='navbar__logo' />
-            <div className={props.hiden? 'navbar__container':'navbar__container_hiden'}>         
+            <div className='navbar__container'>         
                 {navLinks.map((link) => (
                     <NavBarMenu
                     link={link}/>
                 ))}
             </div>
-            <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'} onClick={props.open}/>
+            <button className='navbar__burger' onClick={props.open}/>
             <NavBarPopup
+            close={props.close}
             navLinks={navLinks}
             isOpen={props.isOpen}/>
         </div>
     )
 }
+{/* <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'} */}
+/* {props.hiden? 'navbar__container':'navbar__container_hiden'} */

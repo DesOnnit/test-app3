@@ -10,6 +10,7 @@
     line-height: 43px;
     text-align: justify;
     color: #FFFFFF;
+    margin: 0 0 66px;
 }
 
 .technology-map__title_arrow {
@@ -50,4 +51,44 @@
     line-height: 24px;
     text-align: justify;
     margin: 0 0 0 20px;
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    .technology-map__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .technology-map__title_arrow {
+        background: url(../../utils/img/ArrowMobile.svg) no-repeat center;
+        width: 12.75px;
+        height: 12.75px;
+        margin-left: 3px;
+    }
+
+    .technology-map {
+        padding-top: 0;
+        margin-bottom: 53px;
+    }
+
+    .technology-map__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .technology-map__info {
+        width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .technology-map__info__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 15px 0 26px 20px;
+    }
+
+    .technology-map__info__subtitle {
+        font-size: 15px;
+        line-height: 18px;
+    }
 }

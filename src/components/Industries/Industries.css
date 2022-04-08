@@ -26,3 +26,24 @@
     margin: 66px auto 85px;
     max-width: 1270px;
 }
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    .industries__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 35px 0;
+    }
+
+    .industries__title_arrow {
+        background: url(../../utils/img/ArrowMobile.svg) no-repeat center;
+        width: 12.75px;
+        height: 12.75px;
+        margin-left: 3px;
+    }
+
+    .industries_container {
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+        margin: 0 auto;
+    }
+
+}

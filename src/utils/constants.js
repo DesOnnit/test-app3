@@ -17,6 +17,7 @@ import Industry6 from './img/Industry6.svg';
 import Industry7 from './img/Industry7.svg';
 import Industry8 from './img/Industry8.svg';
 import Industry9 from './img/Industry9.svg';
+import Rectangle from './img/Rectangle.svg'
 export const navLinks = [
     { title: 'Главная', src: '*' },
     { title: 'Услуги', src: '*' },
@@ -78,3 +79,16 @@ export const industry = [
     { title: 'Стартап', src:Industry8},
     { title: 'Retail', src:Industry9},
 ]
+ export const  projects = [{ 
+    name: "Название кейса", 
+    img:Rectangle, 
+    index: 1 
+  },{ 
+    name: "Название кейса", 
+    img:Rectangle, 
+    index: 2 
+  },{ 
+    name: "Название кейса", 
+    img:Rectangle, 
+    index: 3 
+  }]

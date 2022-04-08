@@ -1,0 +1,51 @@
+.industry-card {
+    margin: 0;
+    position: relative;
+}
+
+.industry-card__img {
+    width: 410px;
+    height: 260px;
+}
+
+.industry-card__title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    .industry-card__img {
+        width: 310px;
+        height: 200px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .industry-card__title {
+        bottom: 15px;
+        left: 15px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .industry-card {
+        margin: 0;
+        position: relative;
+        display: flex;
+    }
+
+    .industry-card__container {
+        width: 310px;
+        height: 200px;
+        position: relative;
+        margin: 0 auto;
+    }
+}

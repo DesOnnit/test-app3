@@ -28,6 +28,19 @@
     height:22px;
     cursor: pointer;
 }
-.navbar__burger_hiden{
+.navbar__burger{
     display:none;
+}
+@media screen and (min-width: 325px) and (max-width:1750px) {
+    .navbar__container {
+        display:none
+    }
+    .navbar__burger{
+        display:block;
+        border: none;
+        background: url(../../utils/img/HeaderBurger.svg) no-repeat;
+        width:60px;
+        height:22px;
+        cursor: pointer;
+    }
 }

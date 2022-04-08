@@ -3,8 +3,8 @@
     right: 0;
     top: 0;
     background-color: black;
-    width:834px;
-    height:402px; 
+    width:375px;
+    height:332px; 
 }
 .navbar-popup_hiden{
     display: none;
@@ -13,8 +13,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:51px auto 0;
-    max-width: 236px;
-    height: 300px;
+    margin:29px auto;
+    max-width: 177px;
+    height: 274px;
     justify-content: space-between;
 }

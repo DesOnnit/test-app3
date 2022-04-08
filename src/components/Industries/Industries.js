@@ -1,5 +1,5 @@
 import { industry } from '../../utils/constants'
-import IndustriesCard from './IndustriesCard/IndustriesCard';
+import IndustriesCard from '../IndustriesCard/IndustriesCard';
 import './Industries.css';
 export default function Industries() {
     return (

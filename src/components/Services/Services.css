@@ -29,7 +29,8 @@
     height: 31px;
     margin-left: 12.75px;
 }
-.services__arrow_mini{
+
+.services__arrow_mini {
     background: url(../../utils/img/Vector.svg) no-repeat bottom;
 }
 
@@ -44,4 +45,38 @@
     text-align: justify;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    .services__container {
+        margin-bottom: 212px;
+    }
+
+    .services__title {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 45px 0;
+    }
+
+    .services__arrow {
+        background: url(../../utils/img/ArrowMobile.svg) no-repeat center;
+        width: 12.75px;
+        height: 12.75px;
+        margin-left: 3px;
+    }
+
+    .services {
+        margin-bottom: 44px;
+        padding-top: 34px;
+    }
+
+    .services__link {
+        bottom: auto;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .services__arrow_mini {
+        background: url(../../utils/img/VectorMobile.svg) no-repeat bottom;
+    }
 }

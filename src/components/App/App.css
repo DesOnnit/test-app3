@@ -7,7 +7,7 @@ z-index: 2;
 }
 @media screen and (min-width: 325px) and (max-width:500px) {
     .App {
-        padding: 18px 38px 0;
+        padding: 18px 32px 0;
     }
 }
 

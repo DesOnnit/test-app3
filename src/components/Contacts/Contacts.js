@@ -14,6 +14,7 @@ export default function Contacts() {
                     </div>
                 ))}
             </div>
+            <p className="contacts__copyright">ООО «Команда Даймакс»</p>
         </div>
     )
 }

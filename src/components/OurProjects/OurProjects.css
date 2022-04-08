@@ -1,0 +1,82 @@
+.our-projects {
+  padding-top: 66px;
+  padding-bottom: 74px;
+}
+
+.our-projects__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: justify;
+  color: #FFFFFF;
+  margin: 0 0 38px 0;
+}
+
+.our-projects__container {
+  display: grid;
+  column-gap: 53px;
+  grid-template-columns: repeat(auto-fit, minmax(388px, 1fr));
+  max-width: 1270px;
+  padding-bottom: 94px;
+  position: relative;
+}
+
+.our-projects__link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: justify;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.our-projects__arrow {
+  display: inline-block;
+  background: url(../../utils/img/Vector_title.svg) no-repeat bottom;
+  width: 31px;
+  height: 31px;
+  margin-left: 12.75px;
+}
+
+.our-projects__arrow_mini {
+  background: url(../../utils/img/Vector.svg) no-repeat bottom;
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+  .our-projects {
+    padding-top: 66px;
+    padding-bottom: 0;
+  }
+
+  .our-projects__container {
+    grid-template-columns: repeat(auto-fit, minmax(216px, 1fr));
+    padding-bottom: 94px;
+  }
+
+  .our-projects__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 45px 0;
+  }
+
+  .our-projects__link {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .our-projects__arrow {
+    background: url(../../utils/img/ArrowMobile.svg) no-repeat center;
+    width: 12.75px;
+    height: 12.75px;
+    margin-left: 3px;
+  }
+
+  .our-projects__arrow_mini {
+    background: url(../../utils/img/VectorMobile.svg) no-repeat bottom;
+  }
+}

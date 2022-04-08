@@ -1,3 +1,7 @@
+.header {
+    margin-bottom: 262px;
+}
+
 .header:before {
     content: '';
     display: block;
@@ -109,6 +113,10 @@
 }
 
 @media screen and (min-width: 325px) and (max-width:500px) {
+    .header {
+        margin-bottom: 87px;
+    }
+
     .header__info {
         display: flex;
         flex-direction: column;
@@ -158,6 +166,7 @@
         width: 9px;
         height: 9px;
     }
+
     .header__container {
         margin: 172px auto 0;
         padding-bottom: 87px;
@@ -165,11 +174,13 @@
         min-width: 300px;
         height: 553px;
     }
+
     .header__links__about_arrow {
         background: url(../../utils/img/VectorMobile.svg) no-repeat center;
     }
+
     .header:before {
         background: url(../../utils/img/BeforeMobile.svg) no-repeat;
     }
-    
+
 }
