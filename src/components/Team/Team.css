@@ -102,11 +102,111 @@
     text-align: justify;
 }
 
-@media screen and (min-width: 325px) and (max-width:500px) {
+
+@media screen and (min-width: 1440px) and (max-width:1920px) {
+    .team__container {
+        margin: 67px 0 auto;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+        column-gap: 76px;
+    }
+
+    .team__info {
+        max-width: 100%;
+    }
+
+    .team__slaider {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width:1600px) {
+    .team__info {
+        height: 630px;
+    }
+
+    .team__info__title {
+        margin: 13px 0 54px;
+        font-size: 29px;
+        line-height: 35px;
+    }
+
+    .team__info__paragraph {
+        margin: 0 0 24px 0;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .team__slaider {
+        height: 630px;
+    }
+
+    .team__slaider__title {
+        font-size: 29px;
+        line-height: 35px;
+        margin: 43px 0 46px;
+    }
+
+    .team__slaider__title:nth-child(3) {
+        margin: 24px 0 12px;
+    }
+
+    .team__slaider__img {
+        width: 360px;
+        height: 338px;
+        object-fit: cover;
+    }
+
+    .team__slaider__paragraph {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0;
+        max-width: 460px;
+    }
+}
+@media screen and (min-width: 834px) and (max-width:1439px){
+    .team{
+        margin-bottom: 100px;
+    }
+    .team__container {
+        margin: 0;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+        row-gap: 76px;
+    }
+    .team__info {
+        max-width: 100%;
+    }
+    .team__slaider {
+        width: 100%;
+    }
+    .team__slaider__paragraph {
+        max-width: 90%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width:834px) {
+    .team__title {
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .team__title_arrow {
+        display: inline-block;
+        background: url(../../utils/img/Vector_title.svg) no-repeat bottom;
+        width: 31px;
+        height: 31px;
+        margin-left: 12.75px;
+    }
+    
+}
+
+@media screen and (min-width: 325px) and (max-width:834px) {
     .team {
         padding-top: 66px;
         margin-bottom: 78px;
     }
+
     .team__container {
         margin: 34px 0 auto;
         display: flex;
@@ -143,7 +243,7 @@
     }
 
     .team__slaider {
-        width: 300px;
+        width: 100%;
         height: 435px;
         margin: 0 auto;
     }
@@ -164,6 +264,6 @@
         font-size: 15px;
         line-height: 18px;
         margin: 20px 0;
-        max-width: 258px;
+        max-width: 90%;
     }
 }

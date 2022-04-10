@@ -2,7 +2,7 @@ import { contacts } from '../../utils/constants'
 import './Contacts.css';
 export default function Contacts() {
     return (
-        <div className="contacts">
+        <div className="contacts" id="contacts">
             <p className="contacts__title">КОНТАКТЫ<span className="contacts__title_arrow" /></p>
             <div className="contacts__container">
                 {contacts.map((card) => (

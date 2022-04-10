@@ -21,7 +21,65 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 325px) and (max-width:500px) {
+@media screen and (min-width: 1280px) and (max-width:1920px) {
+    .industry-card__img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1439px) {
+    .industry-card__title {
+        bottom: 10px;
+        left: 10px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width:1279px) {
+    .industry-card__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .industry-card__title {
+        bottom: 20px;
+        left: 20px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:775px) {
+    .industry-card__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .industry-card__title {
+        bottom: 15px;
+        left: 15px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 775px) and (max-width:834px) {
+    .industry-card__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .industry-card__title {
+        bottom: 10px;
+        left: 10px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width:600px) {
     .industry-card__img {
         width: 310px;
         height: 200px;

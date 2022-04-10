@@ -3,7 +3,7 @@
     right: 0;
     top: 0;
     background-color: black;
-    width:375px;
+    width:100%;
     height:332px; 
 }
 .navbar-popup_hiden{
@@ -17,4 +17,24 @@
     max-width: 177px;
     height: 274px;
     justify-content: space-between;
+}
+@media screen and (min-width: 1440px) and (max-width:1750px){
+    .navbar-popup{
+        height:510px; 
+    }
+    .navbar-popup__container{
+        margin:59px auto;
+        max-width: 243px;
+        height: 390px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width:834px){
+    .navbar-popup{
+        height:402px; 
+    }
+    .navbar-popup__container{
+        margin:51px auto;
+        max-width: 243px;
+        height: 300px;
+    }
 }

@@ -11,7 +11,7 @@ export default function Team() {
     }, [counter])
 
     return (
-        <div className="team">
+        <div className="team" id="team">
             <p className="team__title">О КОМАНДЕ<span className="team__title_arrow" /></p>
             <div className="team__container">
                 <div className="team__info">

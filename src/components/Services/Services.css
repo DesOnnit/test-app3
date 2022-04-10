@@ -47,9 +47,78 @@
     text-decoration: none;
 }
 
-@media screen and (min-width: 325px) and (max-width:500px) {
+.services__link:hover {
+    opacity: 0.8;
+    color: #B19A45;
+}
+
+@media screen and (min-width: 1440px) and (max-width:1920px) {
+    .services {
+        margin-bottom: 140px;
+        padding-top: 70px;
+    }
+
+    .services__title {
+        margin: 0 0 34px 0;
+    }
+
     .services__container {
-        margin-bottom: 212px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, 1fr));
+        max-width: 1700px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width:1439px) {
+
+    .services__container {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (min-width: 834px) and (max-width:1279px) {
+
+    .services__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 40px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width:834px) {
+    .services {
+        padding-bottom: 40px;
+        padding-top: 70px;
+    }
+
+    .services__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .services__link {
+        bottom: auto;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .services__arrow_mini {
+        background: url(../../utils/img/ArrowMobile.svg) no-repeat center;
+        width: 12.75px;
+        height: 12.75px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width:600px) {
+    .services__container {
+        margin-bottom: 100px;
+        justify-content: center;
     }
 
     .services__title {

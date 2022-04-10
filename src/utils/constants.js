@@ -19,13 +19,13 @@ import Industry8 from './img/Industry8.svg';
 import Industry9 from './img/Industry9.svg';
 import Rectangle from './img/Rectangle.svg'
 export const navLinks = [
-    { title: 'Главная', src: '*' },
-    { title: 'Услуги', src: '*' },
-    { title: 'Проекты', src: '*' },
-    { title: 'Отрасли', src: '*' },
-    { title: 'О команде', src: '*' },
-    { title: 'Карта технологий', src: '*' },
-    { title: 'Контакты', src: '*' }
+    { title: 'Главная', src: '#navbar' },
+    { title: 'Услуги', src: '#services' },
+    { title: 'Проекты', src: '#our-projects' },
+    { title: 'Отрасли', src: '#industries' },
+    { title: 'О команде', src: '#team' },
+    { title: 'Карта технологий', src: '#technology-map' },
+    { title: 'Контакты', src: '#contacts' }
 ];
 export const slaider = [
     { title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
@@ -60,6 +60,15 @@ export const technology_map = [
     { title: 'FRONTEND', subtitle: 'Angular, React, Backbone, Dojo, HTML5, Bootstrap, JQuery, JavaFx' },
     { title: 'BACKEND', subtitle: 'PHP (ZEND 1-2-3, YII 1-2, Symfony), C# .NET (.NET Core), Go, Python (Django), Java, Node.js' },
     { title: 'DB', subtitle: 'PostgreSQL, Oracle, MySQL, MS SQL, Firebird, NoSQL: MongoDB, Redis, Hadoop' },
+    { title: 'DEVOPS', subtitle: 'Docker, Kubernetes, Jenkins, Ansible' },
+    { title: 'OS', subtitle: 'CentOS, Debian, Ubuntu, FreeBSD, SUSE, Astra Linux, Роса, Windows' },
+    { title: 'WEB SERVER', subtitle: 'Nginx, PHP-FPM, IIS, Apache' },
+    { title: 'SEARCH', subtitle: 'Sphinx, Elasticsearch' },
+    { title: 'CACHE', subtitle: 'XCache, Memcached' },
+    { title: 'QUEUE', subtitle: 'RabbitMQ, ZeroMQ' },
+    { title: 'VERSION CONTROL SYSTEM', subtitle: 'Angular, React, Backbone, Dojo, HTML5, Bootstrap, JQuery, JavaFx' },
+    { title: 'DESKTOP & INTEGRATION', subtitle: 'C/C++, Perl, Go, Python, Java' },
+    { title: 'MOBILE', subtitle: 'Objective-C, Java' },
 ]
 export const contacts = [
     { title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },

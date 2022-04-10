@@ -11,7 +11,7 @@ export default function Header() {
     }, [counter])
 
     return (
-        <div className='header'>
+        <div className='header' id='header'>
             <div className='header__container'>
                 <div className='header__for-links'>
                     {slaider.slice(`${counter - 1}`, `${counter}`).map((card) => (
@@ -26,8 +26,8 @@ export default function Header() {
                         <button className='header__counter__button' onClick={() => setCounter(counter + 1)}>&#8594;</button>
                     </div>
                     <div className='header__links'>
-                        <button className='header__links__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button>
-                        <a href="*" className='header__links__about'>Подробнее<span className='header__links__about_arrow' /></a>
+                        <a href="#navbar" ><button className='header__links__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button></a>
+                        <a href="#navbar" className='header__links__about'>Подробнее<span className='header__links__about_arrow' /></a>
                     </div>
                 </div>
             </div>

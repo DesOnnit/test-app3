@@ -3,7 +3,7 @@ import IndustriesCard from '../IndustriesCard/IndustriesCard';
 import './Industries.css';
 export default function Industries() {
     return (
-        <div className="industries">
+        <div className="industries" id="industries">
             <p className="industries__title">ОТРАСЛИ<span className="industries__title_arrow" /></p>
             <div className="industries_container">
                 {industry.map((card) => (

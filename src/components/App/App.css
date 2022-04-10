@@ -4,6 +4,32 @@ margin: 0 auto;
 padding: 50px 322px 0;
 position: relative;
 z-index: 2;
+max-width:1920px;
+}
+@media screen and (min-width: 1440px) and (max-width:1920px){
+    .App {
+        padding: 56px 140px 60px;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width:1439px){
+    .App {
+        padding: 0 250px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width:1279px){
+    .App {
+        padding: 0 180px;
+    }
+}
+@media screen and (min-width: 843px) and (max-width:1024px){
+    .App {
+        padding: 0 120px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width:834px) {
+    .App {
+        padding: 56px 107px 0;
+    }
 }
 @media screen and (min-width: 325px) and (max-width:500px) {
     .App {

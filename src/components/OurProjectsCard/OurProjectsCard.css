@@ -22,8 +22,28 @@
     color: #FFFFFF;
     margin: 95px 0 102px;
 }
+@media screen and (min-width: 1440px) and (max-width:1920px){
+    .project-card {
+        width: 340px;
+        margin: 0 auto;
+    }
+    .project-card__image {
+        width: 295px;
+    }
+    
+}
+@media screen and (min-width: 600px) and (max-width:1439px){
+    .project-card {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .project-card__image {
+        width: 80%;
+    }
+}
 
-@media screen and (min-width: 325px) and (max-width:500px) {
+
+@media screen and (min-width: 325px) and (max-width:600px) {
     .project-card {
         width: 216px;
         height: 350px;
