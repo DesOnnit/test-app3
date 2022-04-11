@@ -1,15 +1,34 @@
 import React, { useEffect, useState } from 'react';
-import { team_info, team_slaider } from '../../utils/constants'
+import { team_info, team_slider } from '../../utils/constants'
 import './Team.css';
 export default function Team() {
-    const [counter, setCounter] = useState(1);
-    let counterLogic = () => counter === team_slaider.length + 1 ? setCounter(1) : setCounter(counter) || counter === 0 ? setCounter(team_slaider.length) : setCounter(counter)
+    const [activeIndex, setActiveIndex] = useState(1);
+
+    function doNextSlide() {
+        setActiveIndex((current) => {
+            // Вычисляем индекс следующего слайда, который должен вывестись 
+            const res = current === team_slider.length - 1 ? 1 : current + 1;
+            return res
+        })
+    }
+
+    function doPrevSlide() {
+        setActiveIndex((current) => {
+            // Вычисляем индекс следующего слайда, который должен вывестись 
+            const res = current === 1 ? team_slider.length - 1 : current - 1;
+            return res
+        })
+
+    }
 
     useEffect(() => {
-        counterLogic()
-        setTimeout(() => setCounter(counter + 1), 3000)
-    }, [counter])
-
+        // Запускаем интервал 
+        setInterval(() => {
+            doNextSlide();
+        }, 3000)
+        // Выключаем интервал 
+        return () => clearInterval()
+    }, [])
     return (
         <div className="team" id="team">
             <p className="team__title">О КОМАНДЕ<span className="team__title_arrow" /></p>
@@ -21,7 +40,7 @@ export default function Team() {
                     ))}
                 </div>
                 <div className="team__slaider">
-                    {team_slaider.slice(`${counter - 1}`, `${counter}`).map((card) => (
+                    {team_slider.slice(`${activeIndex - 1}`, `${activeIndex}`).map((card) => (
                         <>
                             <p className="team__slaider__title">{card.title}</p>
                             <img className="team__slaider__img" src={card.src} alt={card.title} />
