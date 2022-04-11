@@ -95,7 +95,7 @@
     }
 
     .industry-card {
-        margin: 0;
+        margin-bottom: 20px;
         position: relative;
         display: flex;
     }

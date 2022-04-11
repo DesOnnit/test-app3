@@ -21,7 +21,7 @@
     margin-left: 12.75px;
 }
 
-.technology-map__container {
+.technology-map_dextop {
     max-width: 100%;
     display: grid;
     column-gap: 50px;
@@ -54,6 +54,9 @@
     text-align: justify;
     margin: 0 0 0 20px;
 }
+.technology-map_mobile {
+    display: none;
+}
 @media screen and (min-width: 1440px) and (max-width:1920px) {
     .technology-map {
         padding-top: 91px;
@@ -67,7 +70,7 @@
     }
 }
 @media screen and (min-width: 600px) and (max-width:750px) {
-    .technology-map__container {
+    .technology-map_dextop {
         display: flex;
         flex-wrap: wrap;
     }
@@ -93,10 +96,11 @@
         padding-top: 0;
         margin-bottom: 53px;
     }
-
-    .technology-map__container {
+    .technology-map_dextop {
+        display: none;
+    }
+    .technology-map_mobile {
         display: flex;
-        flex-wrap: wrap;
     }
 
     .technology-map__info {

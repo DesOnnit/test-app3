@@ -8,11 +8,12 @@ export default function Services() {
             <div className='services__container'>
                 {services_card.map((card) => (
                     <ServicesCard
+                        key={card.id}
                         card={card}
                     />
                 ))}
             </div>
-            <a href="#services" className='services__link'>Все услуги<span className='services__arrow services__arrow_mini'/></a>
+            <a href="#services" className='services__link'>Все услуги<span className='services__arrow services__arrow_mini' /></a>
         </div>
     )
 } 

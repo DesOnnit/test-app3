@@ -6,6 +6,7 @@ export default function NavBarPopup(props) {
             <div className="navbar-popup__container">
             {props.navLinks.map((link) => (
                 <NavBarMenu
+                key={link.id}
                 isOpen={props.isOpen}
                 link={link} />
             ))}

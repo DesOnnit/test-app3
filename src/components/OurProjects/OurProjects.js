@@ -39,6 +39,7 @@ export default function OurProjects() {
                 <div className='our-projects__container_dextop'>
                     {projects.slice(0, 3).map((card) =>
                         <OurProjectsCard
+                            key={card.id}
                             card={card} />
                     )}
                 </div>
@@ -46,6 +47,7 @@ export default function OurProjects() {
                     <button className='our-projects__button' onClick={doPrevSlide}>&#8592;</button>
                     {projects.slice(`${activeIndex - 1}`, `${activeIndex}`).map((card) =>
                         <OurProjectsCard
+                            key={card.id}
                             card={card} />
                     )}
                     <button className='our-projects__button' onClick={doNextSlide}>&#8594;</button>

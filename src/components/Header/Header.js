@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { slider } from '../../utils/constants'
+import Pixel from '../../utils/img/Pixel.svg'
+import Video from '../../utils/video/pixels.mp4'
 import './Header.css'
 export default function Header() {
     const [activeIndex, setActiveIndex] = useState(1);
@@ -25,7 +27,7 @@ export default function Header() {
         // Запускаем интервал 
         setInterval(() => {
             doNextSlide();
-        }, 3000)
+        }, 4000)
         // Выключаем интервал 
         return () => clearInterval()
     }, [])
@@ -33,6 +35,8 @@ export default function Header() {
 
     return (
         <div className='header' id='header'>
+            <video preload="auto"  autoPlay loop playsInline muted src={Video} poster={Pixel} width="250" className="header__video">
+            </video>
             <div className='header__container'>
                 <div className='header__for-links'>
                     {slider.slice(`${activeIndex - 1}`, `${activeIndex}`).map((card) => (

@@ -12,7 +12,9 @@
   color: #FFFFFF;
   margin: 0 0 38px 0;
 }
-
+.our-projects__container{
+  position: relative;
+}
 .our-projects__container_dextop {
   display: grid;
   column-gap: 53px;

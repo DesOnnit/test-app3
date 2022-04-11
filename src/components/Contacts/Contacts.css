@@ -6,7 +6,7 @@
 }
 
 .contacts::before {
-    /* content: ""; */
+    content: "";
     display: block;
     background: url(../../utils/img/Map.svg) no-repeat;
     position: absolute;

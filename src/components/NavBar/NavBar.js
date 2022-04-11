@@ -10,6 +10,7 @@ export default function NavBar(props) {
             <div className='navbar__container'>         
                 {navLinks.map((link) => (
                     <NavBarMenu
+                    key={link.id}
                     link={link}/>
                 ))}
             </div>
