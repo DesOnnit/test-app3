@@ -1,4 +1,4 @@
-import Logo from '../../utils/img/DT_gold 1.svg'
+import Logo from '../../utils/img/logo.svg'
 import { navLinks } from '../../utils/constants'
 import NavBarMenu from '../NavBarMenu/NavBarMenu'
 import NavBarPopup from '../NavBarPopup/NavBarPopup'
