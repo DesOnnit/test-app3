@@ -89,15 +89,20 @@ export const industry = [
     { title: 'Retail', src:Industry9},
 ]
  export const  projects = [{ 
-    name: "Название кейса", 
+    name: "Название кейса 1", 
     img:Rectangle, 
     index: 1 
   },{ 
-    name: "Название кейса", 
+    name: "Название кейса 2", 
     img:Rectangle, 
     index: 2 
   },{ 
-    name: "Название кейса", 
+    name: "Название кейса 3", 
+    img:Rectangle, 
+    index: 3 
+  },
+  { 
+    name: "Название кейса 4", 
     img:Rectangle, 
     index: 3 
   }]
