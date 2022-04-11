@@ -9,7 +9,7 @@ export default function Header() {
     function doNextSlide() {
         setActiveIndex((current) => {
             // Вычисляем индекс следующего слайда, который должен вывестись 
-            const res = current === slider.length - 1 ? 1 : current + 1;
+            const res = current === slider.length ? 1 : current + 1;
             return res
         })
     }
@@ -17,7 +17,7 @@ export default function Header() {
     function doPrevSlide() {
         setActiveIndex((current) => {
             // Вычисляем индекс следующего слайда, который должен вывестись 
-            const res = current === 1 ? slider.length - 1 : current - 1;
+            const res = current === 1 ? slider.length : current - 1;
             return res
         })
 
@@ -35,7 +35,7 @@ export default function Header() {
 
     return (
         <div className='header' id='header'>
-            <video preload="auto"  autoPlay loop playsInline muted src={Video} poster={Pixel} width="250" className="header__video">
+            <video preload="auto" autoPlay loop playsInline muted src={Video} poster={Pixel} width="250" className="header__video">
             </video>
             <div className='header__container'>
                 <div className='header__for-links'>

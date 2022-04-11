@@ -9,7 +9,7 @@ export default function OurProjects() {
     function doNextSlide() {
         setActiveIndex((current) => {
             // Вычисляем индекс следующего слайда, который должен вывестись 
-            const res = current === projects.length - 0 ? 1 : current + 1;
+            const res = current === projects.length? 1 : current + 1;
             return res
         })
     }
@@ -17,7 +17,7 @@ export default function OurProjects() {
     function doPrevSlide() {
         setActiveIndex((current) => {
             // Вычисляем индекс следующего слайда, который должен вывестись 
-            const res = current === 1 ? projects.length - 0 : current - 1;
+            const res = current === 1 ? projects.length : current - 1;
             return res
         })
 
