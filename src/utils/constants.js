@@ -29,10 +29,10 @@ export const navLinks = [
 ];
 export const slider = [
     { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
-    { id: Math.random(), title: 'Text 2', subtitle: '12344214222' },
-    { id: Math.random(), title: 'Text 3', subtitle: '123333123123123' },
-    { id: Math.random(), title: 'Text 4', subtitle: 'sdfsdfssssdfsdfsdf' },
-    { id: Math.random(), title: 'Text 5', subtitle: '1241124dfsdfsfsdfsd' },
+    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 1', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
+    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 2', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
+    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 3', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
+    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 4', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
 ]
 export const services_card = [
     { id: Math.random(), title: 'Свои решения', subtitle: 'Применение собственной библиотеки решений, позволяющей сократить трудозатраты на реализацию стандартных компонентов', src: Vector1 },
@@ -72,10 +72,10 @@ export const technology_map = [
 ]
 export const contacts = [
     { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
-    { id: Math.random(), title: 'КАЗАНЬ', telephone: '1', email: '2', adress: '3' },
-    { id: Math.random(), title: 'ТЮМЕНЬ', telephone: '1', email: '2', adress: '3' },
-    { id: Math.random(), title: 'ЕКАТЕРИНБУРГ', telephone: '1', email: '2', adress: '3' },
-    { id: Math.random(), title: 'ДУБАЙ', telephone: '1', email: '2', adress: '3' },
+    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
+    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
+    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
+    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
 ]
 export const industry = [
     { id: Math.random(), title: 'Промышленость', src: Industry1 },

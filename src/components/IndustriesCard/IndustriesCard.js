@@ -10,7 +10,7 @@ export default function IndustriesCard(props) {
                     </div>
                     <div className="industry-card_back">
                         <img src={props.card.src} alt={props.card.title} className="industry-card__img" />
-                        <p className="industry-card__title">22</p>
+                        <p className="industry-card__title">{props.card.title}</p>
                     </div>
                 </div>
             </div>

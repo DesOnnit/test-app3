@@ -374,7 +374,7 @@
     }
 
     .header__video {
-        height: 900px;
+        height: 730px;
         width: 250%;
         left: -75%;
     }
@@ -471,7 +471,7 @@
     .header__video {
         height: 700px;
         width: 200%;
-        left: -240px;
+        left: -200px;
     }
 
     .header__info {
