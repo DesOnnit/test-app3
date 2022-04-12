@@ -71,6 +71,7 @@
     width: 630px;
     height: 746px;
     border: 2px solid #B19A45;
+    animation: slider 2s linear infinite alternate;
 }
 
 .team__slaider__title {
@@ -267,3 +268,23 @@
         max-width: 90%;
     }
 }
+@keyframes slider {
+    from {
+      opacity: 0
+    }
+  20%{
+    opacity: 0.2
+  }
+  40%{
+    opacity: 0.4
+  }
+  60%{
+    opacity: 0.6
+  }
+  80%{
+    opacity: 0.8
+  }
+    to {
+        opacity: 1
+    }
+  }

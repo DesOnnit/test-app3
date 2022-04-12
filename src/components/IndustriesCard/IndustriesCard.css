@@ -21,6 +21,40 @@
     color: #FFFFFF;
 }
 
+.industry-card__transform {
+    perspective: 800px;
+    position: relative;
+}
+
+.industry-card_front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transition: 0.8s;
+    backface-visibility: hidden; 
+}
+
+.industry-card_back {
+    transition: 0.8s;
+    backface-visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+.industry-card__transform:hover .industry-card_front {
+    opacity: 0;
+    transform: rotateY(-180deg);
+}
+
+.industry-card__transform:hover .industry-card_back {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+
 @media screen and (min-width: 1280px) and (max-width:1920px) {
     .industry-card__img {
         width: 100%;

@@ -35,7 +35,7 @@ function App() {
         isOpen={isOpen} />
       <Header />
       <Services />
-      <OurProjects />
+      {/* <OurProjects /> */}
       <Industries />
       <Team />
       <TechnologyMap />

@@ -5,6 +5,7 @@ import NavBarPopup from '../NavBarPopup/NavBarPopup'
 import './NavBar.css'
 export default function NavBar(props) {
     return (
+        <div className="navbar_mobile">
         <div className="navbar" id="navbar">
             <img src={Logo} alt='Логотип' className='navbar__logo' />
             <div className='navbar__container'>         
@@ -19,6 +20,7 @@ export default function NavBar(props) {
             close={props.close}
             navLinks={navLinks}
             isOpen={props.isOpen}/>
+        </div>
         </div>
     )
 }

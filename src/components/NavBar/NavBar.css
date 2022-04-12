@@ -48,3 +48,15 @@
         cursor: pointer;
     }
 }
+
+@media screen and (min-width: 325px) and (max-width:600px) {
+    .navbar_mobile {
+        position: fixed;
+        padding: 0 40px;
+        margin: auto;
+        left: 0;
+        right: 0;
+        background: black;
+        z-index: 3;
+    }
+}

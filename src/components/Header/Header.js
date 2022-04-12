@@ -27,7 +27,7 @@ export default function Header() {
         // Запускаем интервал 
         setInterval(() => {
             doNextSlide();
-        }, 4000)
+        }, 10000)
         // Выключаем интервал 
         return () => clearInterval()
     }, [])
