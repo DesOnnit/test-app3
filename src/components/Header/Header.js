@@ -27,7 +27,7 @@ export default function Header() {
         // Запускаем интервал 
         setInterval(() => {
             doNextSlide();
-        }, 10000)
+        }, 20000)
         // Выключаем интервал 
         return () => clearInterval()
     }, [])
@@ -51,7 +51,7 @@ export default function Header() {
                         <button className='header__counter__button' onClick={doNextSlide}>&#8594;</button>
                     </div>
                     <div className='header__links'>
-                        <a href="#navbar" ><button className='header__links__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button></a>
+                        <a href="#contacts" ><button className='header__links__button'>ОБСУДИТЬ ВАШ ПРОЕКТ</button></a>
                         <a href="#navbar" className='header__links__about'>Подробнее<span className='header__links__about_arrow' /></a>
                     </div>
                 </div>

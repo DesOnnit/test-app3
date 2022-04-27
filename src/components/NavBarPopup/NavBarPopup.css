@@ -1,40 +1,108 @@
-.navbar-popup{
+.navbar-popup {
     position: fixed;
     right: 0;
     top: 0;
     background-color: black;
-    width:100%;
-    height:332px; 
+    width: 100%;
+    height: 332px;
+    opacity: 0;
+    animation: show-popup 0.5s ease-out 1 forwards;
 }
-.navbar-popup_hiden{
-    display: none;
+.active {
+    animation: cls-popup 0.5s ease-in 1 forwards;
 }
-.navbar-popup__container{
+.navbar-popup_close {
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: black;
+    width: 100%;
+    height: 332px;
+}
+.navbar-popup__container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:29px auto;
+    margin: 29px auto;
     max-width: 177px;
     height: 274px;
     justify-content: space-between;
 }
-@media screen and (min-width: 1440px) and (max-width:1750px){
-    .navbar-popup{
-        height:510px; 
+
+@media screen and (min-width: 1440px) and (max-width:1750px) {
+    .navbar-popup {
+        height: 510px;
     }
-    .navbar-popup__container{
-        margin:59px auto;
+
+    .navbar-popup__container {
+        margin: 59px auto;
         max-width: 243px;
         height: 390px;
     }
 }
-@media screen and (min-width: 500px) and (max-width:834px){
-    .navbar-popup{
-        height:402px; 
+
+@media screen and (min-width: 500px) and (max-width:834px) {
+    .navbar-popup {
+        height: 402px;
     }
-    .navbar-popup__container{
-        margin:51px auto;
+        .navbar-popup_close{
+        height: 400px;
+    }
+    .navbar-popup__container {
+        margin: 51px auto;
         max-width: 243px;
         height: 300px;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
+    @keyframes show-popup {
+        0% {
+            transform: translateX(300px);
+        }
+
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes cls-popup {
+        0% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateX(400px);
+            opacity: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 500px) {
+    @keyframes show-popup {
+        0% {
+            transform: translateY(-600px);
+        }
+
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes cls-popup {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        100% {
+            transform: translateY(-300px);
+            opacity: 0;
+        }
     }
 }

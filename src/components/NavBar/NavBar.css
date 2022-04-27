@@ -59,4 +59,12 @@
         background: black;
         z-index: 3;
     }
+    .navbar__logo {
+        width: 130px;
+        height: 80px;
+    }
+    .navbar__burger {
+        background: url(../../utils/img/burger-mpbile.svg) no-repeat;
+        width: 30px;
+    }
 }

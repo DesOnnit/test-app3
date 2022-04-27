@@ -24,5 +24,3 @@ export default function NavBar(props) {
         </div>
     )
 }
-{/* <button className={!props.hiden? 'navbar__burger':'navbar__burger_hiden'} */}
-/* {props.hiden? 'navbar__container':'navbar__container_hiden'} */

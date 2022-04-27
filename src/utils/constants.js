@@ -27,12 +27,13 @@ export const navLinks = [
     { id: Math.random(), title: 'Карта технологий', src: '#technology-map' },
     { id: Math.random(), title: 'Контакты', src: '#contacts' }
 ];
+
 export const slider = [
-    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
-    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 1', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
-    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 2', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
-    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 3', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
-    { id: Math.random(), title: 'ПОМОГАЕМ ВАШЕМУ БИЗНЕСУ 4', subtitle: 'Выделенная команда разработчиков Effective Technologies – новый сервис для реализации Ваших проектов и масштабирования разработки' },
+    { id: Math.random(), title: 'Помогаем бизнесу', subtitle: 'Команда Daimax предоставит вам и вашему бизнесу свежий взгляд со стороны, интеграцию ваших услуг в цифровую среду и внедрение современных автоматизированных систем' },
+    { id: Math.random(), title: 'Development', subtitle: 'Наша команда воплотит задумки дизайнеров и объединит с современными технологиями программирования' },
+    { id: Math.random(), title: 'Design', subtitle: 'Разработка веб-сайтов не обходится без привлекательного веб-дизайна, и наша команда разработает современный пользовательский интерфейс' },
+    { id: Math.random(), title: 'Quality assurance', subtitle: 'Ваш веб-сайт будет работать безупречно. Наша команда проводит тестирование скорости, функциональности и безопасности' },
+    { id: Math.random(), title: 'Branding / Rebranding', subtitle: 'Создадим уникальный внешний вид бренда. Разработаем фирменный стиль, отражающий суть вашего бизнеса' },
 ]
 export const services_card = [
     { id: Math.random(), title: 'Свои решения', subtitle: 'Применение собственной библиотеки решений, позволяющей сократить трудозатраты на реализацию стандартных компонентов', src: Vector1 },
@@ -72,10 +73,8 @@ export const technology_map = [
 ]
 export const contacts = [
     { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
-    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
-    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
-    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
-    { id: Math.random(), title: 'МОСКВА', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'Дмитровское шоссе 100 к 2, офис 2212 (Бизнес центр Норд Хаус)' },
+    { id: Math.random(), title: 'ТЮМЕНЬ', telephone: '+7 3452 217-082', email: 'info@daimax.team', adress: 'Кирова 40/38 - офис 613' },
+    { id: Math.random(), title: 'КАЗАНЬ', telephone: '+7(495) 182-25-82', email: 'info@daimax.team', adress: 'ул. Хайдара Бигичева, д. 29, офис 53' },
 ]
 export const industry = [
     { id: Math.random(), title: 'Промышленость', src: Industry1 },
